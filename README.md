@@ -1,2 +1,2 @@
 # Site-proba-SISC
-Site creat pentru etapă de departajare 
+Site creat pentru etapa de departajare 
