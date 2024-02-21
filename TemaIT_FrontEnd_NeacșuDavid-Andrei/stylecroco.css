@@ -1,0 +1,524 @@
+.container {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    left:0;
+    top:0;
+    filter: brightness(25%);
+  }
+  
+  .text-block1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 175px;
+    left: 200px;
+    color: white;
+    width: 539px;
+  }
+  .orange{
+    font-weight: bold;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .formulardata{
+    position: absolute;
+    background-color: rgb(48, 93, 48);
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 18px;
+    width: 42%;
+    left:27%;
+    top:80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: white;
+    z-index: 2;
+  }
+  #cauta{
+    background-color: orange;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    font-size: large;
+    color: black;
+    border:none;
+    margin:15px;
+  }
+  
+  #cauta:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  #cauta:hover {
+    background-color: rgb(138, 90, 0);
+  }
+  label{
+    
+    margin:15px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  input{
+    
+    border-radius: 5px;
+    border:none;
+    width: 120px;
+    margin:15px;
+    height: 26.3px;
+  }
+  
+  .pamant{
+    position: absolute;
+    width:100%;
+    background-color: white;
+    top:90%;
+    z-index: 1;
+    right:0px;
+    height:1000px;
+  }
+  h2{
+    font-size: 30px;
+    font-size:40px;
+    font-family:Calibri;
+    margin-top:8%;
+    margin-left: 15%;
+    margin-bottom:5%;
+  }
+  .radu{
+    width:400px;
+    height: fit-content;
+    font-size: 22px;
+    border-radius: 25px;
+    color:white;
+    background-color: rgb(48, 93, 48);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    left:10%;
+  }
+  #cap{
+    left:7%;
+    top:57%;
+    position: absolute;
+    width: 110px;
+    z-index:1;
+  }
+  
+  
+  .nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    left: 430px;
+    width: 780px;
+    background-color: transparent;
+    border-radius: 15px;
+    z-index: 2;
+    top:15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+  li {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+  #limod{
+    margin-right:0px;
+    margin-left:50px;
+  }
+  
+  a{
+    color: white;
+    margin:20px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .primcroc{
+    position: absolute;
+    margin-left:260px;
+    margin-top: 2px;
+    width: 50px;
+    height: 60px;
+    
+  }
+  
+ .locatie{
+  position: absolute;
+  top:23%;
+  right:30%;
+
+ }
+
+ .locatie2{
+  position: absolute;
+  top:23%;
+  right:10%;
+
+ }
+
+  
+  .locatiipop{
+    position: absolute;
+    width:100%;
+    background-color:rgb(48, 93, 48);
+    margin-top:1450px ;
+    z-index: 10;
+    right:0px;
+    height:730px;
+    
+  }
+
+  .locatiipop2{
+    position: absolute;
+    width:22%;
+    background-color: rgb(48, 93, 48);
+    margin-top:1450px ;
+    z-index: 11;
+    right:430px;
+    height:450px;
+    top:208px;
+  }
+  
+  
+  h3{
+    font-size: 30px;
+    font-size:40px;
+    font-family:Calibri;
+    margin-top:5%;
+    margin-left: 12%;
+    margin-bottom:5%;
+    color:white;
+  }
+  
+  .gratarel{
+    height: 200px;
+    width: 540px;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-left:170px;
+    margin-bottom: 70px;
+  }
+  
+  .gratarel2{
+    height: 200px;
+    width: 580px;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-left:30px;
+    margin-bottom: 70px;
+  }
+  
+  #yes{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Tgratar{
+    
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size:22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .list{
+    margin-left:30px;
+    margin-top:5px;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .pret{
+    margin-left:30px;
+    margin-top:10px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .cautagratar{
+      background-color: orange;
+      border-radius: 5px;
+      width: 70px;
+      height: 30px;
+      font-size: 12px;
+      color: black;
+      border:none;
+      margin-left:30px;
+      margin-top: 10px;
+  }
+  
+  .cautagratar:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .cautagratar:hover {
+    background-color: rgb(255, 188, 65);
+  }
+  
+  
+
+  
+  
+  
+  .clienti{
+    position: absolute;
+    width:100%;
+    background-color: white;
+    top:300%;
+    z-index: 1;
+    right:0px;
+    height:1000px;
+  }
+  
+  h4{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 130px;
+  }
+  
+  
+  .agentia{
+    margin-left: 13%;
+    margin-right: 13%;
+    word-wrap: keep-all;
+    font-size: 24px;
+    word-spacing: 6px;
+    width:fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  
+  }
+  
+  
+  
+  /* Slideshow container */
+  .slideshow-container {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    background-color:  rgb(48, 93, 48);
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #1f151a;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  
+  @keyframes fade{
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.textblock {font-size: 11px}
+  }
+  .clientela
+  {
+    position: absolute;
+    margin-left:180px;
+    margin-top:40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .textblock {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    left:385px;
+    top:5px;
+    width: 255px;
+    
+    line-height: 1.3;
+    word-wrap: keep-all;
+  }
+  
+  .infoclienti{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    padding-top:140px;
+    text-align: center;
+    padding-right:320px;
+  }
+  
+
+  #formular{
+    
+    padding-left: 200px; 
+    background-color: rgb(48, 93, 48);
+    width: 1319px;
+    
+    height: 1100px;
+    left: 0;
+    position: absolute;
+    top:3100px;
+    z-index: 2;
+    
+  }
+
+  .personalDate{
+    margin-left:14px;
+    color:white; 
+    font-size:20px ; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+
+  
+  .inputforform{
+    width: 450px;
+    border-radius: 4px;
+    border: none;
+
+  }
+  
+  .labelforform{
+    color: white;
+    font-size: 15px;
+    margin-top:3300px;
+  
+  }
+  
+  .reset{
+    background-color: transparent;
+    border-color:white;
+    border-style:solid;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:14px;
+  }
+  
+
+  .reset:hover{
+    background-color: rgba(0, 0, 0, 0.107);
+  }
+  
+  .trimite{
+    background-color: #e5a80f;
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 190px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .trimite:hover{
+    background-color: #9c7207;
+  }
+  
+
+  h6{
+    top: 3100px;
+    color:white;
+    font-size: 200%;
+    z-index:2;
+    margin-left: -100px;
+    margin-bottom:100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .crocform{
+    position:absolute;
+    top: 200px;
+    right:140px;
+    z-index: 2;
+    width:530px; 
+    border-radius: 10px;
+  }
+
+  .contactless{
+    width:100%;
+    left:0;
+    height:120px;
+    background-color: rgb(0, 63, 0);
+    position: absolute;
+    top:4225px;
+    z-index:3;
+    text-align: center;
+    padding-top: 4%;
+    color:white;
+    font-size: 20px;
+  }
+
+  .icons{
+    position:absolute;
+    left:20%;
+    font-size:30px; 
+  }
+
+  i{
+    color:white;
+    padding: 7px;
+  }
